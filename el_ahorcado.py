@@ -20,7 +20,7 @@ def ahorcado():
 
     print("\n***************************************")
     print(" ¡Bienvenido(a) al juego del Ahorcado! ")
-    print("***************************************")
+    print("****************************************")
 
     palabra = obtener_palabra_válida(palabras)
     letras_por_adivinar = set(palabra)  # conjunto de letras de la palabra que deben ser adivinadas.
